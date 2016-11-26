@@ -1,0 +1,38 @@
+
+.jRotator {
+  position: relative;
+  overflow: hidden;
+}
+
+.jRotator > * {
+  position: absolute;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+.slideMain{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#slideImg ul { list-style: none; }
+
+#slideImg li {
+  float: left;
+  margin: 0;
+}
+
+.brdr{
+  vertical-align: bottom;
+    border: 2px solid #fff;
+    border-right: 0;
+}
+.rotate-prev { position: absolute; }
